@@ -17,6 +17,8 @@ app.get('/generic',(req,res)=>{
     res.sendFile(__dirname+'/public/generic.html');
     //res.send('404 | page no found');
 })
+
+
 app.get('/',(req,res)=>{
     res.render('home',{
         nombre: 'Joaquin Funtealba',
